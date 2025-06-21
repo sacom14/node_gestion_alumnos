@@ -1,0 +1,10 @@
+[
+    {
+        "id": "A-1",
+        "name": "Juan Pérez",
+        "age": 20,
+        "email": "juan@example.com",
+        "course": "2 ESO",
+        "createAt": "2023-06-24"
+    }
+]
