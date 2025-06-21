@@ -7,5 +7,14 @@
     "description": "sds",
     "modified": "2025-06-21T22:15:05.094Z",
     "id": "b83602bc-e7e2-47f1-bbdd-1f09a51e3149"
+  },
+  {
+    "name": "maria",
+    "age": 12,
+    "email": "maria@example.com",
+    "course": "2n ESO",
+    "description": "sds",
+    "modified": "2025-06-21T22:24:29.100Z",
+    "id": "0d9cb4ce-6fe0-401f-b436-923ada766706"
   }
 ]

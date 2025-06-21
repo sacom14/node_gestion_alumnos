@@ -1,5 +1,6 @@
 import { readJSON, writeJSON } from '../services/studentService.js';
 import { studentSchema } from '../schemas/studentSchema.js';
+import { validateUniqueEmail } from '../validations/studentsValidations.js';
 import { randomUUID } from 'crypto';
 
 const STUDENTS_FILE = './data/students.json';
@@ -20,6 +21,12 @@ export const createStudent = (req, res) => {
     if (error) {
         return res.status(400).json({
             message: error.details[0].message
+        });
+    }
+
+    if (!validateUniqueEmail(value.email)) {
+        return res.status(409).json({
+            message: 'Email already exists'
         });
     }
 
