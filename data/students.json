@@ -1,10 +1,11 @@
 [
-    {
-        "id": "A-1",
-        "name": "Juan Pérez",
-        "age": 20,
-        "email": "juan@example.com",
-        "course": "2 ESO",
-        "createAt": "2023-06-24"
-    }
+  {
+    "name": "pedro",
+    "age": 12,
+    "email": "pedro@example.com",
+    "course": "2n ESO",
+    "description": "sds",
+    "modified": "2025-06-21T22:15:05.094Z",
+    "id": "b83602bc-e7e2-47f1-bbdd-1f09a51e3149"
+  }
 ]
